@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorial">
+
+    <TextView
+        android:id="@+id/tutorial"
+        android:layout_width="300sp"
+        android:layout_height="600sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120sp"
+        android:layout_marginEnd="35sp"
+        android:text="Swipe down to refresh.\n
+                        \nSwipe left/right to change dice.\n
+                        \nSwipe up to see your last roll.\n
+                        \nYou can roll different dices at once. \n
+                        "
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="10sp"
+        android:text="Back" />
+
+</RelativeLayout>

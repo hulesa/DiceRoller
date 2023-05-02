@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_layout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TVcurrentDice"
+        android:layout_width="wrap_content"
+        android:layout_height="65sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250sp"
+        android:layout_marginEnd="170sp"
+        android:text="Dice"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="65sp"
+        android:text="Your dices: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rolls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="170sp"
+        android:text="You rolled: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150sp"
+        android:layout_marginEnd="150sp"
+        android:text="+"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150sp"
+        android:layout_marginBottom="300sp"
+        android:text="—"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0sp"
+        android:layout_marginBottom="30sp"
+        android:text="ROLL"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="60sp"
+        android:layout_height="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="30sp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:text="\?" />
+
+</RelativeLayout>
